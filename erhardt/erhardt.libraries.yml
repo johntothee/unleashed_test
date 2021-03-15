@@ -1,0 +1,15 @@
+erhardtcustom:
+  js:
+    js/erhardt.js: {}
+  dependencies:
+    - erhardt/tipped
+    - core/jquery
+    - core/drupalSettings
+
+tipped:
+  css:
+    theme:
+      libraries/tipped/dist/css/tipped.css: {}
+  js:
+    libraries/tipped/dist/js/tipped.js: {}
+

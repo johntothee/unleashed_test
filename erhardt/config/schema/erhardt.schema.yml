@@ -1,0 +1,6 @@
+field.formatter.settings.slugify:
+  type: mapping
+  mapping:
+    slug_character:
+      type: string
+      label: 'Slug character'

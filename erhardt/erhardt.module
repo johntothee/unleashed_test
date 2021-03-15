@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function erhardt_theme($existing, $type, $theme, $path) {
+  return [
+    'tooltip_field_formatter' => [
+      'template' => 'tooltip-field-formatter',
+      'render element' => 'elements',
+      'variables' => [
+        'items' => NULL,
+      ],
+    ],
+  ];
+}

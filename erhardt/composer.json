@@ -1,0 +1,39 @@
+{
+    "name": "drupal/erhardt",
+    "description": "Unleashed Technologies Backend Coding Test",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "John Erhardt"
+        }
+    ],
+    "require": {
+        "staaky/tipped": "4.7.0"
+    },
+    "extra": {
+        "installer-paths": {
+            "libraries/{$name}": [
+                "type:drupal-library"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "staaky/tipped",
+                "version": "4.7.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/staaky/tipped/archive/v4.7.0.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "composer/installers": "^1.2.0"
+                }
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,4 @@
+services:
+  slugify.service:
+    class: Drupal\erhardt\SlugifyService
+
